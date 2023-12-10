@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <div style="text-align: center;">
+          <h4>User Name And Password For Accessing Backend</h4>
+          <h5>UserName: admin</h5>
+          <h5>password: 1234</h5>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="{% url 'find_data' %}">Click here for data table</a>
+</div>
+{% endblock %}
